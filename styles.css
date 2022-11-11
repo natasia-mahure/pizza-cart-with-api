@@ -1,0 +1,132 @@
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: orange;
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 50%;
+    font-size: 25px;
+}
+
+th,
+td {
+    height: 30px;
+}
+
+header {
+    background-color: midnightblue;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 100%;
+
+}
+
+.pizzaPics {
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 60%; */
+}
+
+.small {
+    background-color: wheat;
+    width: 33.3%;
+    height: 40%;
+}
+
+.meduim {
+    background-color: crimson;
+    width: 33.3%;
+    height: 40%;
+}
+
+.large {
+    background-color: antiquewhite;
+    width: 33.3%;
+    height: 40%;
+    /* height: 33.3%; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    border: 2px;
+    border-color: crimson;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+    color: crimson;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    border: 2px;
+    border-color: crimson;
+}
+
+h5 {
+    text-align: center;
+    font-size: 26px;
+    color: crimson;
+    border: 2px;
+
+}
+
+.logo img {
+    border: 1px;
+    border-radius: 50%;
+    /* width: 25%; */
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 45%;
+}
+
+body {
+    background-image: url("pics/silk\ back.jfif");
+    background-color: #cccccc;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    /* Center the image */
+    background-size: cover;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+}
+
+.nice {
+    box-sizing: border-box;
+
+    border-radius: 0.6em;
+
+    cursor: pointer;
+    /* display: flex; */
+    /* line-height: 1; */
+    padding: 1.2em 2.8em;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: 550; */
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 130px;
+    display: grid;
+}
+.btn-work{ text-align: center;}

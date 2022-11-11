@@ -1,0 +1,75 @@
+.cart{
+    border: 1px solid;
+    background-color: greenyellow;
+    padding:1em ;
+    margin: 1em;
+    width: 15em;
+}
+
+body{
+    background-color: ;
+}
+.body{
+    padding: 1em;
+    margin: 1em;
+}
+.intro{
+    background-color:darkcyan;
+    border-radius: 0.5em;
+    font-size: large;
+    font-weight: bold;
+}
+.cart{
+    padding: 1em;
+    width: 98%;
+    margin-top: 1em;
+    background-color: orange;
+    border-radius: 0.5em;
+}
+input{
+    
+    width: 15%;
+}
+
+.input > input[type="text"]{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.table{
+    background-color: green;
+    border-radius: 0.5em;
+}
+.messege{
+    color: red;
+    background-color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+.a1{
+    flex: 1;
+    margin: auto;
+    display: flex;
+}
+.display{
+    display: flex;
+}
+.a2{
+    margin: 1em;
+    padding: 1em;
+}
+.aa{
+    margin-left: 50%;
+    display: flex;
+}
